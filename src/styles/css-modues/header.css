@@ -1,0 +1,57 @@
+.header {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1.5rem 1.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 80rem;
+  margin-inline: auto;
+  font-size: 0.75rem;
+}
+
+.logo-container {
+  width: 5rem;
+  height: 1.5rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav a {
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+
+.nav a:is(:hover, :focus-visible) {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (min-width: 40rem) {
+  .header {
+    font-size: 0.9rem;
+    padding: 2.5rem 3rem;
+  }
+  .logo-container {
+    width: 8rem;
+    height: 2.375rem;
+  }
+}
+@media (min-width: 62rem) {
+  .header {
+    font-size: 1rem;
+    padding: 4.5rem 5rem;
+  }
+  .logo-container {
+    width: 11rem;
+    height: 3.25rem;
+  }
+}

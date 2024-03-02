@@ -1,0 +1,36 @@
+.hero {
+  padding: 1.5rem 1.75rem 2rem;
+}
+
+.hero-img-container {
+  width: 100%;
+  max-width: 45rem;
+  max-height: 33.375rem;
+  margin-inline: auto;
+}
+
+.hero-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  color: var(--white);
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5; /* 150% */
+  margin-top: 2rem;
+}
+
+.hero-text {
+  color: var(--white);
+  font-family: "Open Sans";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  margin-top: 1rem;
+}
