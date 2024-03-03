@@ -23,6 +23,8 @@
   font-weight: 700;
   line-height: 1.5; /* 150% */
   margin-top: 2rem;
+  max-width: 45rem;
+  margin-inline: auto;
 }
 
 .hero-text {
@@ -33,4 +35,25 @@
   font-weight: 400;
   line-height: 1.5; /* 150% */
   margin-top: 1rem;
+  max-width: 38rem;
+  margin-inline: auto;
+}
+
+/* Responsiveness */
+
+@media (min-width: 40rem) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-text {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 62rem) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-text {
+    font-size: 1.25rem;
+  }
 }

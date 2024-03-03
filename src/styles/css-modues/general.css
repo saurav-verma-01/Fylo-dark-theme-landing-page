@@ -37,7 +37,6 @@ img {
 .main {
   background-color: var(--dark-blue-2);
   width: 100%;
-  height: 100%;
   color: var(--white);
 }
 
@@ -69,4 +68,10 @@ img {
 .btn--primary:is(:hover, :focus-visible) {
   background-image: linear-gradient(135deg, var(--cyan), var(--cyan));
   filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
+}
+
+@media (min-width: 40rem) {
+  .btn {
+    font-size: 1rem;
+  }
 }

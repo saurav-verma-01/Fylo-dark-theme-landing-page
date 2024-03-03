@@ -1,3 +1,4 @@
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -6,6 +7,7 @@ const App = () => {
     <main className="main">
       <Navbar />
       <Hero />
+      <Features />
     </main>
   );
 };
